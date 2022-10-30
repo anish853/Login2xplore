@@ -1,0 +1,64 @@
+90937654|-31949267703263010|90952911
+
+////JPDB-PUT
+{
+    "token": "90937654|-31949267703263010|90952911",
+    "cmd": "PUT",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr": {
+        "id": "1",
+        "name": "Anish Bhardwaj",
+        "email": "bhardwajanish602@gmail.com",
+        "mobileno": "9546804488"
+    }
+}
+
+//JPDB-GET
+
+{
+    "token": "90937654|-31949267703263010|90952911",
+    "dbName": "Student",
+    "cmd": "GET_BY_KEY",
+    "rel": "Student-Rel",
+    "jsonStr": {
+        "name": "Anish Bhardwaj"
+    }
+
+}
+
+//JPDB-UPDATE
+
+{
+    "token": "90937654|-31949267703263010|90952911",
+  	"cmd": "UPDATE",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr": {
+      "2":{"name":"Anish"}
+      "1":{"mobileno":9546804488}
+    }
+}
+
+//JPDB-UPDATE
+
+{
+    "token": "90937654|-31949267703263010|90952911",
+  	"cmd": "UPDATE",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "jsonStr": {
+      "2":{"name":"Anish"}
+      "1":{"mobileno":9546804488}
+    }
+}
+
+//JPDB-REMOVE
+{
+    "token": "90937654|-31949267703263010|90952911",
+  	"cmd": "REMOVE",
+    "dbName": "Student",
+    "rel": "Student-Rel",
+    "record":1,
+    "jsonStr": {}
+}
